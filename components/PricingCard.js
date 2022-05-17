@@ -19,7 +19,7 @@ function PricingCard({details}) {
               </li>
             ))}
           </ul>
-          <button className='mx-auto w-full block bg-orange-400 px-4 py-2 rounded-md mt-6 mb-4 font-semibold'>
+          <button className='mx-auto w-full block bg-purple-700 px-4 py-2 rounded-md mt-6 mb-4 font-semibold text-gray-300'>
             {details.buttonText}
           </button>
           {details.finePrint && <small className='text-purple-700 block text-center text-sm'> {details.finePrint} </small>}

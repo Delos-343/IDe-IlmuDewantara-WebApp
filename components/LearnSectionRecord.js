@@ -22,7 +22,7 @@ function LearnSectionRecord({details}) {
             </div>
           ))}
         </div>
-        <div className='mx-auto px-8 xl:px-0 py-24 text-6xl text-gray-600 md:flex md:justify-center space-y-10 md:space-x-20 md:space-y-0 max-w-7xl'>
+        <div className='mx-auto px-8 xl:px-0 py-14 text-6xl text-gray-600 md:flex md:justify-center space-y-10 md:space-x-20 md:space-y-0 max-w-7xl'>
           <div>
             <span className='font-bold text-gray-900 flex items-center'>
               <span> {details.hoursOfContent} </span>
